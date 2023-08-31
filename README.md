@@ -8,6 +8,12 @@ This is a simple chatbot based on the OpenAI API.
 brew install sqlite
 ```
 
+```
+python3.11 -m venv env
+. env/bin/activate
+pip install -r requirements.txt
+```
+
 ### Load sample data (data.json)
 
 ```
@@ -25,9 +31,7 @@ APIKEY = "<your OpenAI API key>"
 ### Install flask and run
 
 ```
-python3.11 -m venv env
-pip install flask
-python main.py
+python app.py
 ```
 
 ### Code Coveage
