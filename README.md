@@ -11,7 +11,7 @@ brew install sqlite
 ### Load sample data (data.json)
 
 ```
-python load-data.py
+python load-sample-data.py
 ```
 
 ### Add API keys to constants.py file

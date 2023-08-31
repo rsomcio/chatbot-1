@@ -1,0 +1,3 @@
+[run]
+omit =
+  load-sample-data.py

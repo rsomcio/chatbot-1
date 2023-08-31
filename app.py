@@ -58,9 +58,12 @@ def chat():
 
     # grab the context from the database
     context = get_context(question)
+    if not context:
+        return "error: no valid context found"
 
-    # send prompt and context to openai
+    # send prompt and context to opena
     answer = create_chat_completion(context, question)
+    
     return answer
 
 @app.teardown_appcontext
