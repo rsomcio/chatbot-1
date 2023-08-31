@@ -30,6 +30,22 @@ pip install flask
 python main.py
 ```
 
+### Code Coveage
+
+Run the tests below:
+
+```
+pytest tests/
+```
+
+Generate Code Coverage Report:
+
+```
+coverage run  --source . -m pytest tests/
+coverage report
+coverage html
+```
+
 ### Testing
 
 ```
