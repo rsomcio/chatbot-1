@@ -4,10 +4,12 @@ This is a simple chatbot based on the OpenAI API.
 
 ### Prerequisites
 
+Install sqlite3 database
 ```
 brew install sqlite
 ```
 
+Install python environment and requisit modules
 ```
 python3.11 -m venv env
 . env/bin/activate
@@ -28,7 +30,7 @@ Grab your api keys from [OpenAI API Keys](https://platform.openai.com/account/ap
 APIKEY = "<your OpenAI API key>"
 ```
 
-### Install flask and run
+### Start Application
 
 ```
 python app.py
