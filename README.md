@@ -48,27 +48,6 @@ coverage html
 
 ### Testing
 
-sample data
-
-```
-    {
-        "keyword": "789 Oak Lane",
-        "context": "Spacious 4-bedroom house with a large backyard, listed at 750,000 dollars."
-    },
-    {
-        "keyword": "555 Pine Road",
-        "context": "Charming cottage-style home with 2 bedrooms, available for 280,000 dollars."
-    },
-    {
-        "keyword": "987 Maple Court",
-        "context": "Modern 5-bedroom residence with luxurious amenities, price set at 1,200,000 dollars."
-    },
-    {
-        "keyword": "222 Cedar Street",
-        "context": "Beautiful 4-bedroom house with a swimming pool, offered at 890,000 dollars."
-    },
-```
-
 ```
 test 1:
 
@@ -106,6 +85,33 @@ test 3:
 response:
 
 error: no valid context found%
+
+
+test 4:
+
+> $ curl --location 'localhost:5000/chat' \                                                                       ⬡ 19.7.0
+--header 'Content-Type: application/json' \
+--data '{
+    "prompt": "How much is the house on 987 maple court?"
+}'
+
+response:
+
+I'm sorry, as an AI, I do not have access to real-time property listings. Please contact a real estate agent or check an online real estate website for the most accurate and up-to-date information on the price of the house at 987 Maple Court.%
+
+
+test 5:
+
+> $ curl --location 'localhost:5000/chat' \                                                                       ⬡ 19.7.0
+--header 'Content-Type: application/json' \
+--data '{
+    "prompt": "How much is the house on 987 maple court cost?"
+}'
+
+response:
+
+The house on 987 Maple Court is priced at 1,200,000 dollars.%
+
 ```
 
 References
