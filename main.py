@@ -1,4 +1,3 @@
-import os
 import sqlite3
 import requests
 import json
@@ -6,8 +5,6 @@ import json
 from flask import Flask, request, g
 
 import constants
-
-os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
 app = Flask(__name__)
 
