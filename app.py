@@ -64,7 +64,7 @@ def chat():
     if not context:
         return "error: no valid context found"
 
-    # send prompt and context to opena
+    # send prompt and context to openai
     answer = create_chat_completion(context, question)
 
     return answer
