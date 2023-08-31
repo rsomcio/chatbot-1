@@ -1,0 +1,158 @@
+[
+    {
+        "keyword": "123 Main Street",
+        "context": "A 3-bedroom house, the price is 568,000 dollars."
+    },
+    {
+        "keyword": "456 Elm Avenue",
+        "context": "Cozy 2-bedroom home in a quiet neighborhood, asking price is 320,000 dollars."
+    },
+    {
+        "keyword": "789 Oak Lane",
+        "context": "Spacious 4-bedroom house with a large backyard, listed at 750,000 dollars."
+    },
+    {
+        "keyword": "555 Pine Road",
+        "context": "Charming cottage-style home with 2 bedrooms, available for 280,000 dollars."
+    },
+    {
+        "keyword": "987 Maple Court",
+        "context": "Modern 5-bedroom residence with luxurious amenities, price set at 1,200,000 dollars."
+    },
+    {
+        "keyword": "222 Cedar Street",
+        "context": "Beautiful 4-bedroom house with a swimming pool, offered at 890,000 dollars."
+    },
+    {
+        "keyword": "333 Birch Avenue",
+        "context": "Cozy 2-bedroom bungalow perfect for a small family, listed at 310,000 dollars."
+    },
+    {
+        "keyword": "777 Walnut Lane",
+        "context": "Elegant 6-bedroom mansion with stunning architecture, asking price is 1,950,000 dollars."
+    },
+    {
+        "keyword": "444 Spruce Road",
+        "context": "Rustic 3-bedroom cabin with mountain views, available for 420,000 dollars."
+    },
+    {
+        "keyword": "666 Pinecrest Drive",
+        "context": "Newly constructed 4-bedroom home with modern design, price set at 630,000 dollars."
+    },
+    {
+        "keyword": "111 Cedar Lane",
+        "context": "Quaint 2-bedroom cottage in a serene location, listed at 280,000 dollars."
+    },
+    {
+        "keyword": "999 Maple Street",
+        "context": "Luxurious 5-bedroom estate with premium features, offered at 2,500,000 dollars."
+    },
+    {
+        "keyword": "777 Oak Avenue",
+        "context": "Spacious 4-bedroom house with a large backyard, asking price is 780,000 dollars."
+    },
+    {
+        "keyword": "555 Birch Court",
+        "context": "Classic 2-bedroom house with unique architecture, price set at 340,000 dollars."
+    },
+    {
+        "keyword": "666 Pine Lane",
+        "context": "Stylish 5-bedroom residence in a prime location, listed at 1,150,000 dollars."
+    },
+    {
+        "keyword": "222 Spruce Avenue",
+        "context": "Cozy 3-bedroom chalet with mountain views, offered at 380,000 dollars."
+    },
+    {
+        "keyword": "444 Oak Road",
+        "context": "Modern 4-bedroom home with open floor plan, asking price is 620,000 dollars."
+    },
+    {
+        "keyword": "888 Maple Drive",
+        "context": "Elegant 6-bedroom mansion with luxurious amenities, available for 2,800,000 dollars."
+    },
+    {
+        "keyword": "333 Cedar Street",
+        "context": "Rustic 2-bedroom cabin perfect for nature lovers, price set at 270,000 dollars."
+    },
+    {
+        "keyword": "123 Pine Avenue",
+        "context": "Newly renovated 5-bedroom home with contemporary design, listed at 980,000 dollars."
+    },
+    {
+        "keyword": "555 Elm Lane",
+        "context": "Quaint 3-bedroom cottage with a garden, asking price is 390,000 dollars."
+    },
+    {
+        "keyword": "777 Birch Road",
+        "context": "Charming 4-bedroom house with vintage charm, available for 570,000 dollars."
+    },
+    {
+        "keyword": "666 Oak Drive",
+        "context": "Spacious 2-bedroom residence with a deck, price set at 310,000 dollars."
+    },
+    {
+        "keyword": "999 Maple Court",
+        "context": "Luxurious 6-bedroom estate in a prestigious neighborhood, offered at 3,200,000 dollars."
+    },
+    {
+        "keyword": "444 Cedar Road",
+        "context": "Modern 3-bedroom home with energy-efficient features, asking price is 540,000 dollars."
+    },
+    {
+        "keyword": "888 Pine Street",
+        "context": "Elegant 4-bedroom villa with panoramic views, available for 1,050,000 dollars."
+    },
+    {
+        "keyword": "111 Elm Avenue",
+        "context": "Cozy 2-bedroom house with a fireplace, price set at 300,000 dollars."
+    },
+    {
+        "keyword": "222 Oak Lane",
+        "context": "Charming 5-bedroom farmhouse with a barn, listed at 680,000 dollars."
+    },
+    {
+        "keyword": "555 Birch Drive",
+        "context": "Classic 4-bedroom home with timeless appeal, asking price is 490,000 dollars."
+    },
+    {
+        "keyword": "777 Pine Court",
+        "context": "Stylish 3-bedroom residence with modern amenities, available for 760,000 dollars."
+    },
+    {
+        "keyword": "666 Cedar Avenue",
+        "context": "Rustic 2-bedroom cabin surrounded by nature, price set at 250,000 dollars."
+    },
+    {
+        "keyword": "888 Elm Road",
+        "context": "Newly built 5-bedroom home with luxury finishes, listed at 1,180,000 dollars."
+    },
+    {
+        "keyword": "111 Oak Drive",
+        "context": "Quaint 4-bedroom cottage near a lake, asking price is 430,000 dollars."
+    },
+    {
+        "keyword": "222 Pine Lane",
+        "context": "Charming 3-bedroom house with character, available for 390,000 dollars."
+    },
+    {
+        "keyword": "555 Cedar Avenue",
+        "context": "Elegant 2-bedroom apartment with city views, price set at 320,000 dollars."
+    },
+    {
+        "keyword": "444 Elm Road",
+        "context": "Modern 5-bedroom home with spacious interiors, offered at 750,000 dollars."
+    },
+    {
+        "keyword": "777 Maple Lane",
+        "context": "Spacious 4-bedroom house with a backyard pool, asking price is 830,000 dollars."
+    },
+    {
+        "keyword": "999 Birch Avenue",
+        "context": "Luxurious 3-bedroom penthouse in a high-rise, available for 1,150,000 dollars."
+    },
+    {
+        "keyword": "333 Pine Road",
+        "context": "Rustic 2-bedroom cabin perfect for retreats, price set at 220,000 dollars."
+    }
+]
