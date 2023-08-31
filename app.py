@@ -1,4 +1,5 @@
 import sqlite3
+import logging
 import requests
 import json
 
@@ -7,6 +8,8 @@ from flask import Flask, request, g
 import constants
 
 app = Flask(__name__)
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)-8s %(threadName)-9s %(message)s')
 
 DATABASE = './sample.db'
 
@@ -63,17 +66,17 @@ def chat():
 
     # send prompt and context to opena
     answer = create_chat_completion(context, question)
-    
+
     return answer
 
 @app.teardown_appcontext
 def close_connection(exception):
     """Closes the database again at the end of the request."""
-    print("close_connection")
-    print(exception)
+
+    logging.debug(f'close_connection: exception={exception}')
     db = getattr(g, '_database', None)
     if db is not None:
         db.close()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
