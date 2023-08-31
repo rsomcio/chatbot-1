@@ -9,7 +9,7 @@ Install sqlite3 database
 brew install sqlite
 ```
 
-Install python environment and requisit modules
+Install python environment and requisite modules
 ```
 python3.11 -m venv env
 . env/bin/activate
@@ -123,3 +123,4 @@ The house on 987 Maple Court is priced at 1,200,000 dollars.%
 References
 
 [OpenAI Chat API](https://platform.openai.com/docs/api-reference/chat/create)
+
