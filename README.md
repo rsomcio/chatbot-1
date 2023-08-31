@@ -1,5 +1,7 @@
 # Simple Technical Assistant
 
+This is a simple chatbot based on the OpenAI API.
+
 ### Prerequisites
 
 ```
@@ -10,6 +12,14 @@ brew install sqlite
 
 ```
 python load-data.py
+```
+
+### Add API keys to constants.py file
+
+Grab your api keys from [OpenAI API Keys](https://platform.openai.com/account/api-keys).
+
+```
+APIKEY = "<your OpenAI API key>"
 ```
 
 ### Install flask and run
@@ -30,3 +40,7 @@ curl --location 'localhost:5000/chat' \
 }'
 
 ```
+
+References
+
+[OpenAI Chat API](https://platform.openai.com/docs/api-reference/chat/create)
