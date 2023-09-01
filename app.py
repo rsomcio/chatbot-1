@@ -21,11 +21,20 @@ def get_db():
 
 def get_context(sentence):
     cur = get_db().cursor()
-    res = cur.execute(f"""
-    SELECT keyword, context
-    FROM context
-    WHERE '{sentence}' LIKE '%' || keyword || '%';""")
+    try:
+        res = cur.execute(f"""
+            SELECT keyword, context
+            FROM context
+            WHERE '{sentence}' LIKE '%' || keyword || '%';""")
+    except sqlite3.Error as e:
+        logging.error(e)
+        return None
+
     context = res.fetchone()
+    if not context:
+        logging.error(f'chat: no context found for {question}')
+        return "error: no valid context found"
+
     return context
 
 def create_chat_completion(context, question):
@@ -48,7 +57,16 @@ def create_chat_completion(context, question):
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {constants.APIKEY}'
     }
-    response = requests.request("POST", url, headers=headers, data=payload)
+    try:
+        response = requests.request("POST", url, headers=headers, data=payload)
+    except requests.exceptions.RequestException as e:
+        logging.error(e)
+        return None
+
+    if response.status_code != 200:
+        logging.error(f'create_chat_completion: status_code={response.status_code}, text={response.text}')
+        return None
+
     return response.json()['choices'][0]['message']['content']
 
 @app.route("/")
@@ -61,8 +79,7 @@ def chat():
 
     # grab the context from the database
     context = get_context(question)
-    if not context:
-        return "error: no valid context found"
+
 
     # send prompt and context to openai
     answer = create_chat_completion(context, question)
