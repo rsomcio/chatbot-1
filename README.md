@@ -5,11 +5,13 @@ This is a simple chatbot based on the OpenAI API.
 ### Prerequisites
 
 Install sqlite3 database
+
 ```
 brew install sqlite
 ```
 
 Install python environment and requisite modules
+
 ```
 python3.11 -m venv env
 . env/bin/activate
@@ -34,6 +36,11 @@ APIKEY = "<your OpenAI API key>"
 
 ```
 python app.py
+```
+
+```
+docker build -t flask-app .
+docker run -p 5000:5000 flask-app
 ```
 
 ### Code Coveage
@@ -123,4 +130,3 @@ The house on 987 Maple Court is priced at 1,200,000 dollars.%
 References
 
 [OpenAI Chat API](https://platform.openai.com/docs/api-reference/chat/create)
-
